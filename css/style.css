@@ -36,6 +36,20 @@ p {
   text-align: right;
 }
 
+.botao-flutuante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  font-size: 24px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -43,6 +57,21 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .botao-flutuante {
+    background-color: green;
+    border-radius: 50%; 
+    font-size: 30px; 
+    padding: 15px;
+    width: 60px; 
+    height: 60px; 
+  }
+
+  .botao-flutuante .bi {
+    font-size: 1.5rem;
   }
 }
 

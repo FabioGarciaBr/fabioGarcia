@@ -33,8 +33,8 @@ p {
   }
 
 #icons{
-    text-align: right;
-  }
+  text-align: right;
+}
 
 .botao-flutuante {
   position: fixed;
@@ -49,6 +49,7 @@ p {
   z-index: 9999;
   font-size: 24px;
 }
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -73,15 +74,15 @@ p {
   .botao-flutuante .bi {
     font-size: 1.5rem;
   }
-  #icons{
-    text-align: left;
-  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+  #icons{
+  text-align: left;
+}
 }
 
 .icon-block {

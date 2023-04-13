@@ -32,6 +32,10 @@ p {
     width: 100%;
   }
 
+#icons{
+  text-align: right;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -45,6 +49,9 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  #icons{
+  text-align: left;
   }
 }
 

@@ -60,7 +60,7 @@ p {
 
 @media (max-width: 768px) {
   .botao-flutuante {
-    background-color: green;
+    background-color: transparent;
     border-radius: 50%; 
     font-size: 30px; 
     padding: 6px;

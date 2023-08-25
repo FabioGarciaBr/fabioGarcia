@@ -149,6 +149,7 @@
     <h4>Bem-vindo à nossa página!</h4>
     <p>Para informaçoes sobre fisioterapia domiciliar, clique no menu em HOME-CARE</p>
     <p>Obrigado por visitar o nosso site.</p>
+   <button onclick="fecharCaixaMensagem()">Fechar</button>
 </div>
 
   <!--footer-->
@@ -206,6 +207,12 @@
 
     <!-- JavaScript para exibir a caixa de mensagem quando a página carregar -->
 <script>
+    // Função para fechar a caixa de mensagem
+    function fecharCaixaMensagem() {
+        var caixaMensagem = document.getElementById('caixa-mensagem');
+        caixaMensagem.style.display = 'none';
+    }
+  
     window.addEventListener('load', function() {
         var caixaMensagem = document.getElementById('caixa-mensagem');
         caixaMensagem.style.display = 'block';

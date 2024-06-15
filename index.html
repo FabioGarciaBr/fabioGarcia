@@ -6,6 +6,13 @@
   <meta name="description" content="fisioterapia home care" />
   <meta name="keywords" content="fisioterapia home care residencial reparo celular conserto site assistência técnica" />
 
+  <!--meta tags sociais-->
+    <meta property="og:url"           content="https://fabiogarciabr.github.io/fabioGarcia/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Fabio Garcia" />
+    <meta property="og:description"   content="meu Site Pessoal" />
+    <meta property="og:image"         content="https://github.com/FabioGarciaBr/fabioGarcia/blob/main/Programador.jpg"/>
+
   <title>Site pessoal - Fábio Garcia</title>
 
   <!-- CSS  -->
@@ -42,7 +49,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Fábio Garcia</h1>
+        <h1 class="header center teal-text text-lighten-2">&lt;Fábio.Garcia&gt;</h1>
         <div class="row center">
           <h5 style="color: white;" class="header col s12 light">Site pessoal de aprensentação</h5>
         </div>
@@ -96,8 +103,6 @@
             <p class="light">Técnico de manutenção em aparelhos celulares android e iphone. Especialista em reparos avançados</p>
           </div>
         </div>
-      </div>
-      </div>
 
     </div>
   </div>
@@ -121,7 +126,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Sobre mim</h4>
-          <p class="left-align light">Desde minha formação como fisioterapeuta (2002), atuei em clinica própria com ortopedia e traumatologia, acupuntura e neurologia, e em hospitais com pneumologia, trabalhei tambem com ginastica laboral e ergonômia por mais de uma década. Sempre tive paixão por tecnologia e computação, então depois de anos me dedicando a fisioterapia, decidi me dedicar a microeletrônica, mais precisamente em smartphones, foi então que realizei cursos com os mais respeitados professores na área, adquirindo conhecimento para consertar qualquer aparelho, do mais simples ao mais moderno, foi então, que decidi ampliar meus conhecimentos com programação e inicie meu curso me identificando e dedicando ao front-end. Tenho também formação pelo Senai em segurança de computadores ou cibersegurança, que é a proteção de sistemas de computador contra roubo ou danos ao hardware, software ou dados eletrônicos, bem como a interrupção ou desorientação dos serviços que fornecem.</p>
+          <p style="text-align: justify;" >Desde minha formação como fisioterapeuta (2002), atuei em clinica própria com ortopedia e traumatologia, acupuntura e neurologia, e em hospitais com pneumologia, trabalhei tambem com ginastica laboral e ergonômia por mais de uma década. Sempre tive paixão por tecnologia e computação, então depois de anos me dedicando a fisioterapia, decidi me dedicar a microeletrônica, mais precisamente em smartphones, foi então que realizei cursos com os mais respeitados professores na área, adquirindo conhecimento para consertar qualquer aparelho, do mais simples ao mais moderno, foi então, que decidi ampliar meus conhecimentos com programação e inicie meu curso me identificando e dedicando ao front-end. Tenho também formação pelo Senai em segurança de computadores ou cibersegurança, que é a proteção de sistemas de computador contra roubo ou danos ao hardware, software ou dados eletrônicos, bem como a interrupção ou desorientação dos serviços que fornecem.</p>
         </div>
       </div>
 
@@ -146,8 +151,8 @@
 
  <a href="tel:19982851400" class="botao-flutuante">
 <i class="bi bi-telephone-outbound"></i>
-</a>
--->
+</a>-->
+
 
 
 <!--footer-->
@@ -156,7 +161,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Siga minhas redes sociais</h5>
-          <p class="grey-text text-lighten-4">Em minhas redes sociais posto diariamente sobre smartphones, saúde, segurança cibernética e programação, as áreas que amo e atuo.</p>
+          <p class="grey-text text-lighten-4">Em minhas redes sociais posto diariamente sobre smartphones, segurança cibernética, saúde e programação, as áreas que amo e atuo.</p>
 
 
         </div>
@@ -186,14 +191,26 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Desing by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Desenvolvido por Fábio Garcia
       </div>
     </div>
   </footer>
-
+  <!--botao-flutuante-->
+  <a style="bottom: 90px;" href="https://api.whatsapp.com/send?phone=19992338398" target="_blank" class="botao-flutuante">
+  <i class="bi bi-whatsapp"></i>
+</a>
+<script>
+  $(document).ready(function() {
+  $('.whatsapp-button').on('click', function(e) {
+    e.preventDefault();
+    window.location.href = $(this).attr('href');
+  });
+});
+</script>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script scr="js/navbar.js"></script>

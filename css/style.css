@@ -106,7 +106,7 @@ footer.page-footer {
         }
 @media only screen and (max-width: 600px) {
   h1.header {
-    font-size: 1.75em; /* Tamanho opcional */
+    font-size: 2em; /* Tamanho opcional */
     line-height: 1.2; /* Ajusta o espaçamento entre linhas */
     text-align: center; /* Centraliza o texto */
   }

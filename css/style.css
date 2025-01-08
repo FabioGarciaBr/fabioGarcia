@@ -104,7 +104,7 @@ footer.page-footer {
             transform: translate(-50%, -50%);
             z-index: 9999;
         }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   h1.header {
     font-size: 1.75em; /* Tamanho opcional */
     line-height: 1.2; /* Ajusta o espaçamento entre linhas */
